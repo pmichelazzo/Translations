@@ -1,0 +1,827 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress WP-UI plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Paulino Michelazzo <michelazzo@me.com>\n"
+"Language-Team: Paulino Michelazzo <michelazzo@me.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ default
+#: admin/admin-options.php:100
+msgid "Save Options"
+msgstr "Salvar Opções"
+
+#@ default
+#: admin/admin-options.php:101
+msgid "Reset Defaults"
+msgstr "Reiniciar Configurações"
+
+#@ wp-ui
+#@ default
+#: admin/admin-options.php:325
+#: admin/admin-options.php:405
+msgid "Currently uploaded image"
+msgstr "Imagem atualmente carregada"
+
+#@ wp-ui
+#: admin/wpUI-options.php:58
+msgid "Tabs"
+msgstr "Abas"
+
+#@ wp-ui
+#: admin/wpUI-options.php:59
+#: admin/wpUI-options.php:66
+#: admin/wpUI-options.php:73
+#: admin/wpUI-options.php:80
+#: admin/wpUI-options.php:87
+#: admin/wpUI-options.php:94
+msgid "Enable"
+msgstr "Habilitar"
+
+#@ wp-ui
+#: admin/wpUI-options.php:65
+msgid "Accordions"
+msgstr "Accordions"
+
+#@ wp-ui
+#: admin/wpUI-options.php:72
+msgid "Enable Collapsibles"
+msgstr "Habilitar recolhimento"
+
+#@ wp-ui
+#: admin/wpUI-options.php:79
+msgid "Dialogs"
+msgstr "Diálogos"
+
+#@ wp-ui
+#: admin/wpUI-options.php:86
+msgid "Pagination support"
+msgstr "Suporte à paginação"
+
+#@ wp-ui
+#: admin/wpUI-options.php:93
+msgid "HTML editor buttons"
+msgstr "Botões do editor HTML"
+
+#@ wp-ui
+#: admin/wpUI-options.php:100
+msgid "Top next/previous links"
+msgstr "Links de topo Próximo/Anterior"
+
+#@ wp-ui
+#: admin/wpUI-options.php:101
+msgid "Enable top navigation on tabs."
+msgstr "Habilitar navegação de topo nas abas."
+
+#@ wp-ui
+#: admin/wpUI-options.php:107
+msgid "Bottom next/previous links"
+msgstr "Links de rodapé anterior/próximo "
+
+#@ wp-ui
+#: admin/wpUI-options.php:108
+msgid "Enable bottom navigation on tabs."
+msgstr "Habilitar navegação de rodapé nas abas."
+
+#@ wp-ui
+#: admin/wpUI-options.php:114
+msgid "TinyMCE menu"
+msgstr "Menu TinyMCE"
+
+#@ wp-ui
+#: admin/wpUI-options.php:115
+msgid "Enable."
+msgstr "Habilitar."
+
+#@ wp-ui
+#: admin/wpUI-options.php:121
+msgid "WP Widgets"
+msgstr "WP Widgets"
+
+#@ wp-ui
+#: admin/wpUI-options.php:122
+msgid "Enable wordpress widgets."
+msgstr "Habilitar widgets WordPress."
+
+#@ wp-ui
+#: admin/wpUI-options.php:128
+msgid "Post bottom widget"
+msgstr "Widget de rodapé de post"
+
+#@ wp-ui
+#: admin/wpUI-options.php:129
+msgid "Enable the popular/recent/random/related posts shown at the end of each post. Requires cache option to be set."
+msgstr "Habilitar posts popular/recente/randômico/relacionado no fim de cada post. Necessita que a opção cache esteja configurada."
+
+#@ wp-ui
+#: admin/wpUI-options.php:135
+msgid "Cache images and scripts"
+msgstr "Fazer cache de imagens e scripts"
+
+#@ wp-ui
+#: admin/wpUI-options.php:136
+msgid "Uncheck to disable the cache feature for thumbnail images and scripts. "
+msgstr "Clique para desabilitar a função de cache para miniaturas de imagens e scripts."
+
+#@ wp-ui
+#: admin/wpUI-options.php:147
+msgid "Load Multiple Styles"
+msgstr "Carregar múltiplos estilos"
+
+#@ wp-ui
+#: admin/wpUI-options.php:148
+#, php-format
+msgid "Load multiple css3 styles. %1$s Select your styles %2$s"
+msgstr "Carregar múltiplos estilos CSS3. %1$s Selecione seus estilos %2$s"
+
+#@ wp-ui
+#: admin/wpUI-options.php:154
+msgid "Style selection"
+msgstr "Seleção de estilo"
+
+#@ wp-ui
+#: admin/wpUI-options.php:155
+msgid "Select styles you want to load."
+msgstr "Selecione os estilos que deseja carregar."
+
+#@ wp-ui
+#: admin/wpUI-options.php:166
+msgid "Default style<br /><small>All widgets</small>"
+msgstr "Estilo padrão<br /><small>Todos os widgets</small>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:167
+msgid "Select a <u>default</u> style. Shortcode argument \"style\" overrides.<br /> ex. <code>[wptabs style=\"wpui-quark\"]</code>"
+msgstr "Selecione um estilo <u>padrão</u>. Argumento \"style\" de shortcode sobrescrito.<br /> ex. <code>[wptabs style=\"wpui-quark\"]</code>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:171
+msgid "Preview "
+msgstr "Pré-visualizar"
+
+#@ wp-ui
+#: admin/wpUI-options.php:171
+msgid "WP UI CSS3 Styles"
+msgstr "Estilos CSS3 WP UI"
+
+#@ wp-ui
+#: admin/wpUI-options.php:171
+msgid "jQuery UI themes"
+msgstr "Temas jQuery UI"
+
+#@ default
+#: admin/wpUI-options.php:176
+msgid "jQuery UI custom themes<br /><small>Manage Custom themes. Not sure? <a target=\"_blank\" href=\"http://kav.in/wp-ui-using-jquery-ui-custom-themes/\">follow this guide</a>.</small>"
+msgstr "Temas customizados jQuery UI<br /><small>Gerenciar temas customizados. Não tem certeza? <a target=\"_blank\" href=\"http://kav.in/wp-ui-using-jquery-ui-custom-themes/\">siga este guia</a>.</small>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:177
+msgid "This will scan the directory wp-ui under uploads for themes."
+msgstr "Isto pode procurar por temas no diretório wp-ui dentro de uploads."
+
+#@ wp-ui
+#: admin/wpUI-options.php:177
+msgid "Scan Uploads"
+msgstr "Procurar Uploads"
+
+#@ wp-ui
+#: admin/wpUI-options.php:177
+msgid "Add a theme/style"
+msgstr "Adicionar um tema/estilo"
+
+#@ wp-ui
+#: admin/wpUI-options.php:188
+msgid "Custom CSS"
+msgstr "CSS customizado"
+
+#@ wp-ui
+#: admin/wpUI-options.php:189
+msgid "Enter additional css rules here, taking care on the CSS syntax."
+msgstr "Digite regras adicionais de CSS aqui, tomando cuidado com a sintaxe CSS."
+
+#@ wp-ui
+#: admin/wpUI-options.php:199
+msgid "Dialog Width"
+msgstr "Tamanho do Diálogo"
+
+#@ wp-ui
+#: admin/wpUI-options.php:200
+msgid "Default width of dialogs with the suffix"
+msgstr "Largura padrão de diálogos para o sufixo"
+
+#@ wp-ui
+#: admin/wpUI-options.php:221
+msgid "Tabs effects"
+msgstr "Efeitos das abas"
+
+#@ wp-ui
+#: admin/wpUI-options.php:222
+msgid "Tabs show effect."
+msgstr "Mostrar efeito de abas."
+
+#@ wp-ui
+#: admin/wpUI-options.php:234
+msgid "Effect speed"
+msgstr "Velocidade do efeito"
+
+#@ wp-ui
+#: admin/wpUI-options.php:235
+msgid "Enter the animation speed. Larger number - slow, smaller number - quick. Example - 200, 600, 900, 'fast', 'slow'."
+msgstr "Digite a velocidade da animação. Número grande - lento, número pequeno - rápido. Exemplo - 200, 600, 900, 'fast', 'slow'."
+
+#@ wp-ui
+#: admin/wpUI-options.php:242
+msgid "Tabs rotation"
+msgstr "Rotação de abas"
+
+#@ wp-ui
+#: admin/wpUI-options.php:243
+msgid "Behavior on auto rotation. Rotation can be enabled with shortcode attribute \"rotate\". Example : "
+msgstr "Comportamento em auto rotação. Rotação pode ser habilitada com o atributo \"rotate\". Exemplo :"
+
+#@ wp-ui
+#: admin/wpUI-options.php:247
+msgid "None"
+msgstr "Nenhum"
+
+#@ wp-ui
+#: admin/wpUI-options.php:248
+msgid "Keep rotating"
+msgstr "Manter rotação"
+
+#@ wp-ui
+#: admin/wpUI-options.php:249
+msgid "Stop on Click"
+msgstr "Parar no Clique"
+
+#@ wp-ui
+#: admin/wpUI-options.php:256
+msgid "Tabs trigger event"
+msgstr "Evento capturado em abas"
+
+#@ wp-ui
+#: admin/wpUI-options.php:257
+msgid "Open Tabs on click or mouseover."
+msgstr "Abrir abas com cliques ou mouseover."
+
+#@ wp-ui
+#: admin/wpUI-options.php:261
+#: admin/wpUI-options.php:283
+msgid "Click"
+msgstr "Clique"
+
+#@ wp-ui
+#: admin/wpUI-options.php:262
+#: admin/wpUI-options.php:284
+msgid "Mouseover"
+msgstr "Mouseover"
+
+#@ wp-ui
+#: admin/wpUI-options.php:267
+msgid "Collapsible Tabs"
+msgstr "Recolher Abas"
+
+#@ wp-ui
+#: admin/wpUI-options.php:268
+msgid "Enable all panels in a tabset to be collapsed."
+msgstr "Habilitar todos os painéis de um tabset para serem recolhidos."
+
+#@ wp-ui
+#: admin/wpUI-options.php:278
+msgid "Accordion trigger event"
+msgstr "Captura de eventos do Accordion"
+
+#@ wp-ui
+#: admin/wpUI-options.php:279
+msgid "Open accordion on click or mouseover."
+msgstr "Abrir o accordion com clique ou mouseover."
+
+#@ wp-ui
+#: admin/wpUI-options.php:289
+msgid "Accordion auto height"
+msgstr "Altura automática do accordion"
+
+#@ wp-ui
+#: admin/wpUI-options.php:290
+msgid "Uniform accordion panel height."
+msgstr "Uniformizar a altura do painel do accordion"
+
+#@ wp-ui
+#: admin/wpUI-options.php:296
+msgid "Collapsible Accordions"
+msgstr "Accordions recolhíveis"
+
+#@ wp-ui
+#: admin/wpUI-options.php:297
+msgid "Enable all sections of accordion to be closed, and at load."
+msgstr "Fazer com que todas as seções do acoordion sejam fechadas no carregamento."
+
+#@ wp-ui
+#: admin/wpUI-options.php:303
+msgid "Easing for the Accordion"
+msgstr "'Easing' para o accordion"
+
+#@ wp-ui
+#: admin/wpUI-options.php:304
+msgid "Optional : easing effect on accordion animation"
+msgstr "Opcional: efeito 'easing' para animação do accordion"
+
+#@ wp-ui
+#: admin/wpUI-options.php:346
+msgid "Tabs mousewheel navigation"
+msgstr "Navegação de abas com roda do mouse"
+
+#@ wp-ui
+#: admin/wpUI-options.php:347
+msgid "Scroll and switch between tabs."
+msgstr "Rolar e trocar entre abas."
+
+#@ wp-ui
+#: admin/wpUI-options.php:363
+msgid "Previous tab - button text<br /><small>Tabs Navigation</small>"
+msgstr "Aba anterior - texto do botão<br /><small>Navegação de Abas</small>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:364
+msgid "Tabs previous button. Default is \"Previous\"."
+msgstr "Botão anterior de abas. Padrão é \"Previous\"."
+
+#@ wp-ui
+#: admin/wpUI-options.php:371
+msgid "Next tab - button text<br /><small>Tabs Navigation</small>"
+msgstr "Próxima Aba - texto do botão<br /><small>Navegação das Abas</small>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:372
+msgid "Tabs Next button. Default is \"Next\". "
+msgstr "Botão próximo de abas. Padrão é \"Next\"."
+
+#@ wp-ui
+#: admin/wpUI-options.php:379
+msgid "Closed WP Spoiler text"
+msgstr "Fechar texto WP Spoiler"
+
+#@ wp-ui
+#: admin/wpUI-options.php:380
+msgid "Displayed on hovering over collapsed spoiler's header. Leave blank to disable."
+msgstr "Apresentado no cabeçalho fechado do spoiler. Deixar em branco para desabilitar."
+
+#@ wp-ui
+#: admin/wpUI-options.php:391
+msgid "Open WP spoiler text"
+msgstr "Abrir texto WP spoiler"
+
+#@ wp-ui
+#: admin/wpUI-options.php:392
+msgid "Displayed on hovering over header on open spoiler."
+msgstr "Apresentado no cabeçalho do spoiler quando aberto."
+
+#@ default
+#: admin/wpUI-options.php:410
+msgid "Alternative shortcodes, Shorter."
+msgstr "Shortcodes alternativos, Shorter."
+
+#@ wp-ui
+#: admin/wpUI-options.php:411
+msgid "Use shorter codes. "
+msgstr "Utilizar shortcodes."
+
+#@ wp-ui
+#: admin/wpUI-options.php:417
+msgid "Donot load the jQuery copy"
+msgstr "Não carregar cópia da jQuery"
+
+#@ wp-ui
+#: admin/wpUI-options.php:418
+msgid "Check this box to prevent loading jQuery & UI libs from Google CDN. <br /> <br />Please note: Recent versions of jQuery and jQuery UI javascript libraries are required for the functionality of WP UI. This Plugin's components might <b>not</b> work as expected with the older versions of jQuery and UI."
+msgstr "Clique nesta caixa para evitar a carga da biblioteca jQuery UI do Google CDN. <br /> <br />Atenção: Versões recentes das bibliotecas JavaScript jQuery e jQuery UI são necessárias para o funcionamento do WP UI. Este componente do plugin pode <b>não</b> funcionar como esperado com versões antigas da jQuery e UI."
+
+#@ wp-ui
+#: admin/wpUI-options.php:424
+msgid "Conditional script load logic"
+msgstr "Lógica condicional de carga de script"
+
+#@ wp-ui
+#: admin/wpUI-options.php:425
+msgid "Use <a href=\"http://codex.wordpress.org/Conditional_Tags\" title=\"Learn more on Wordpress conditional tags on Codex\" target=\"_blank\">wordpress conditional tags</a>  to load limit/prevent scripts from loading. <font style=\"\" <br><strong>Examples</strong> - <br><ul style=\"list-style: disc inside none\"> <li>To load only on single pages, input <code>is_single()</code>, similarly <code>is_front_page()</code> to load only on frontpage.</li> <li><code>!is_page()</code> disables it on all pages.</li><li>Use <code>||</code> (or) or <code>&&</code> operators to define a complex conditional clause. <code>is_single() && is_page( 'about' ) && in_category( array( 1,2,3 ) ) </li></ul>"
+msgstr "Use <a href=\"http://codex.wordpress.org/Conditional_Tags\" title=\"Aprenda mais sobre tags condicionais do WordPress no Codex\" target=\"_blank\">tags condicionais</a>  para limitar a carga /carregamento de scripts. <font style=\"\" <br><strong>Exemplos</strong> - <br><ul style=\"list-style: disc inside none\"> <li>Para carregar somente em páginas, use o código <code>is_single()</code>, similarmente <code>is_front_page()</code> para carregar somente na página principal.</li> <li><code>!is_page()</code> desabilita em todas as páginas.</li><li>Use os operadores <code>||</code> (or) ou <code>&&</code> para definir uma cláusula condicional complexa. <code>is_single() && is_page( 'about' ) && in_category( array( 1,2,3 ) ) </li></ul>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:436
+msgid "Demand load scripts"
+msgstr "Demanda o carregamento de scripts"
+
+#@ default
+#: admin/wpUI-options.php:437
+msgid "Load needed components on demand. With jQuery. This scripts are significantly newer versions than the regular ones."
+msgstr "O carregamento realizado on demand. Com jQuery. Estes scripts são significantemente mais novos que os atuais."
+
+#@ wp-ui
+#: admin/wpUI-options.php:443
+msgid "Use cookies for tabs"
+msgstr "Usar cookies para abas"
+
+#@ default
+#: admin/wpUI-options.php:444
+msgid "WP UI makes use of cookies to remember the state of the selected tabs. Click here to disable the behavior. jQuery cookie plugin by Klaus Hartl."
+msgstr "WP UI faz uso de cookies para relembrar o estado da aba selecionada. Clique aqui para desabilitar este comportamento. Plugin Cookie jQuery por Klaus Hartl."
+
+#@ wp-ui
+#: admin/wpUI-options.php:451
+msgid "Linking and History"
+msgstr "Links e Histórico"
+
+#@ default
+#: admin/wpUI-options.php:452
+msgid "Uncheck here to disable history and linking. jQuery hashchange plugin by Ben Alman."
+msgstr "Desabilite aqui para desabilitar o histórico e links. Plugin jQuery hashchange por Ben Alman."
+
+#@ wp-ui
+#: admin/wpUI-options.php:458
+msgid "Blank page fix<br /><small>document.write issue</small>"
+msgstr "Correção para página em branco<br /><small>document.write issue</small>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:459
+msgid "Enable to fix the blank page issue that results when including other scripts within tabs/accordion<br> <small>Known scripts : Twitter profile widget, e-commerce widgets. </small>"
+msgstr "Habilita a correção para a questão de página em branco que é acontece quando insere-se outros scripts dentro de abas/accordion<br> <small>Scripts conhecidos : Twitter profile widget, e-commerce widgets. </small>"
+
+#@ wp-ui
+#: admin/wpUI-options.php:466
+msgid "Relative time"
+msgstr "Tempo relativo"
+
+#@ wp-ui
+#: admin/wpUI-options.php:467
+msgid "Display relative time on posts retrieved by WP UI."
+msgstr "Mostra o tempo relativo em posts capturados pelo WP UI."
+
+#@ wp-ui
+#: admin/wpUI-options.php:473
+msgid "Default excerpt length"
+msgstr "Tamanho padrão do cabeçalho"
+
+#@ wp-ui
+#: admin/wpUI-options.php:474
+msgid "Maximum limit for the excerpts. Default is upto the "
+msgstr "Limite máximo para cabeçalhos. O padrão é até "
+
+#@ wp-ui
+#: admin/wpUI-options.php:482
+msgid "Post widget"
+msgstr "Post widget"
+
+#@ wp-ui
+#: admin/wpUI-options.php:483
+msgid "Popular/Recent/Random/Related posts can be shown at end of each post."
+msgstr "Posts Popular/Recente/Randômico/Relacionado podem ser mostrados no fim de cada post."
+
+#@ wp-ui
+#: admin/wpUI-options.php:499
+msgid "Type of posts shown"
+msgstr "Tipos de posts apresentados"
+
+#@ wp-ui
+#: admin/wpUI-options.php:501
+msgid "Popular"
+msgstr "Popular"
+
+#@ wp-ui
+#: admin/wpUI-options.php:502
+msgid "Recent"
+msgstr "Recente"
+
+#@ wp-ui
+#: admin/wpUI-options.php:503
+msgid "Related"
+msgstr "Relacionado"
+
+#@ wp-ui
+#: admin/wpUI-options.php:504
+msgid "Random"
+msgstr "Aleatório"
+
+#@ wp-ui
+#: admin/wpUI-options.php:546
+msgid "Default thumbnail image"
+msgstr "Imagem miniatura padrão"
+
+#@ wp-ui
+#: admin/wpUI-options.php:547
+msgid "The default image in case, post thumbnail is not available."
+msgstr "A imagem padrão no caso da miniatura do post não estar disponível."
+
+#@ wp-ui
+#: admin/wpUI-options.php:590
+msgid "Template 1"
+msgstr "Template 1"
+
+#@ wp-ui
+#: admin/wpUI-options.php:590
+msgid "Usually the default for the Tabs and accordions on posts/feeds"
+msgstr "Usualmente o padrão para abas e accordion em posts/feeds"
+
+#@ default
+#: admin/wpUI-options.php:591
+msgid "Modify the template structure here. Use the variables within curled brackets. Click the top-right help link->Posts for reference."
+msgstr "Modifique a estrutura da template aqui. Use variáveis dentro dos colchetes. Clique na ajuda em link->Posts para referências no canto superior direito."
+
+#@ wp-ui
+#: admin/wpUI-options.php:603
+msgid "Template 2"
+msgstr "Template 2"
+
+#@ wp-ui
+#: admin/wpUI-options.php:603
+msgid "Usually the default for spoilers and dialogs"
+msgstr "Usualmente o padrão para spoilers e diálogos"
+
+#@ default
+#: admin/wpUI-options.php:604
+msgid "Modify the template structure here. Use the variables within curled brackets."
+msgstr "Modifique a estrutura da template aqui. Use variáveis dentro dos colchetes. "
+
+#@ wp-ui
+#: admin/wpUI-options.php:619
+msgid "View Tour"
+msgstr "Veja o Tour"
+
+#@ wp-ui
+#: admin/wpUI-options.php:620
+msgid "View editor page tour to learn more about WP UI."
+msgstr "Veja a página de tour do editor para aprender mais sobre o WP UI."
+
+#@ wp-ui
+#: admin/wpUI-options.php:653
+msgid "Template <br /><small>Use <code>template=\"\" </code>with any of the compatible shortcodes.</small>"
+msgstr "Template <br /><small>Use <code>template=\"\" </code>com qualquer um dos shortcodes compatíveis.</small>"
+
+#@ default
+#: admin/wpUI-options.php:654
+msgid "Modify the template structure here. Use the variables within curled brackets. <input name=\"wpUI_options[reset_post_template_]\"  type=\"submit\" value=\"Delete\">"
+msgstr "Modifique a estrutura da template aqui. Use variáveis dentro dos colchetes. <input name=\"wpUI_options[reset_post_template_]\"  type=\"submit\" value=\"Delete\">"
+
+#@ wp-ui
+#: admin/wpUI-options.php:685
+msgid "General"
+msgstr "Geral"
+
+#@ wp-ui
+#: admin/wpUI-options.php:686
+msgid "Style"
+msgstr "Estilo"
+
+#@ wp-ui
+#: admin/wpUI-options.php:687
+msgid "Effects"
+msgstr "Efeitos"
+
+#@ wp-ui
+#: admin/wpUI-options.php:688
+msgid "Text"
+msgstr "Texto"
+
+#@ wp-ui
+#: admin/wpUI-options.php:689
+msgid "Posts"
+msgstr "Posts"
+
+#@ wp-ui
+#: admin/wpUI-options.php:690
+msgid "Advanced"
+msgstr "Avançado"
+
+#@ wp-ui
+#: admin/wpUI-options.php:878
+msgid "WP UI - General options"
+msgstr "WP UI - Opções gerais"
+
+#@ wp-ui
+#: admin/wpUI-options.php:993
+msgid "Please enable the javascript in your browser."
+msgstr "Por favor, habilite o JavaScript no seu navegador."
+
+#@ wp-ui
+#: admin/wpUI-options.php:1004
+msgid "Support this plugin :"
+msgstr "Suporte este plugin :"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1004
+msgid "Like us on Facebook"
+msgstr "Recomende no Facebook"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1004
+msgid "Follow us on Twitter"
+msgstr "Siga-nos no Twitter"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1007
+msgid "Help -"
+msgstr "Ajuda -"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1007
+msgid "Plugin documentation, demo @ projects"
+msgstr "Documentação do plugin, demo @ projetos"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1011
+msgid "Help improve this plugin : "
+msgstr "Ajude a melhorar este plugin :"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1011
+msgid "Suggestions? Ideas?"
+msgstr "Sugestões? Idéias?"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1011
+msgid "Report -"
+msgstr "Reporte -"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1011
+msgid "Bugs / Issues / conflicts</a> on Support forums"
+msgstr "Bugs / Questões / conflitos</a> nos fóruns de suporte"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1035
+msgid "Actions"
+msgstr "Ações"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1038
+msgid "Empty cache"
+msgstr "Limpar cache"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1042
+msgid "Clean old post meta"
+msgstr "Limpar post meta antigos"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1047
+msgid "Clean options"
+msgstr "Limpar opções"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1054
+msgid "Support this plugin"
+msgstr "Suporte este plugin"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1057
+msgid "Give it a nice rating at Wordpress.org"
+msgstr "Dê uma boa avaliação no WordPress.org"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1060
+msgid "Please login and choose It 'works' at wordpress.org"
+msgstr "Por favor, autentique-se e diga 'funciona' no wordpress.org"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1060
+msgid "Tell others that it works!"
+msgstr "Diga aos outros que funciona!"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1067
+msgid "Like us on facebook!"
+msgstr "Recomende no Facebook!"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1070
+msgid "@Kavingray on Twitter"
+msgstr "@Kavingray no Twitter"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1078
+msgid "Get Support!"
+msgstr "Obtenha Suporte!"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1081
+msgid "Documentation"
+msgstr "Documentação"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1084
+msgid "Help, Bugs and Issues"
+msgstr "Ajuda, Bugs e "
+
+#@ wp-ui
+#: admin/wpUI-options.php:1087
+msgid "Suggestions / Ideas"
+msgstr "Sugestões / Idéias"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1095
+msgid "Note from the developer"
+msgstr "Nota do desenvolvedor"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1098
+msgid "Thank you for using this plugin."
+msgstr "Obrigado por utilizar este plugin."
+
+#@ wp-ui
+#: admin/wpUI-options.php:1123
+msgid "Credits"
+msgstr "Créditos"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1126
+msgid "Thanks to the WordPress team and jQuery (&amp;) UI team. Also thanks to the all people out there, who spend their invaluable time for the spirit of The Open Source - Sharing and helping everyone. Icons on this page -"
+msgstr "Agradecimentos ao time do WordPress e ao time do jQuery (&amp;) UI. Agradecimentos também a todas as pessoas que dedicam incalculável tempo para o espírito do Software Livre - Compartilhando e ajudando qualquer um.Ícones nesta página -"
+
+#@ wp-ui
+#: admin/wpUI-options.php:1126
+msgid "GPL licensed Woocons"
+msgstr "Licenciado sob GPL Woocons"
+
+#@ wp-ui
+#: inc/class-wpui-posts.php:394
+msgid " ago"
+msgstr "atrás"
+
+#@ default
+#: inc/widgets-3.2.php:113
+#: inc/widgets-3.2.php:348
+#: inc/widgets-3.3.php:97
+#: inc/widgets-3.3.php:472
+#: inc/widgets.php:95
+#: inc/widgets.php:330
+msgid "Title"
+msgstr "Título"
+
+#@ wp-ui
+#: inc/widgets.php:10
+msgid "Display your content in Tabs/Accordions/spoilers"
+msgstr "Mostrar seu conteúdo em Abas/Accordions/spoilers"
+
+#@ wp-ui
+#: inc/wpui-helpers.php:208
+msgid "The folder wp-ui was not found and could not be created. Please check the uploads folder permissions."
+msgstr "A pasta wp-ui não foi encontrada e não pôde ser criada. Por favor, verifique as permissões da pasta de uploads."
+
+#@ wp-ui
+#: inc/wpui-helpers.php:234
+msgid "Failed to load File. Double check URL or maybe the installation didn't go well?"
+msgstr "Falha na carga do arquivo. Verifique a URL ou talvez a instalação não esteja correta."
+
+#@ default
+#: inc/wpui-helpers.php:279
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#@ wp-ui
+#: inc/wpui-helpers.php:436
+msgid "404"
+msgstr "404"
+
+#@ wp-ui
+#: inc/wpui-helpers.php:510
+msgid "Custom themes"
+msgstr "Temas customizados"
+
+#@ wp-ui
+#: inc/wpui-helpers.php:543
+#, php-format
+msgid "Options need a manual save. Please click %1$sSave options%2$s to do so."
+msgstr "Opções precisam ser salvas manualmente. Por favor, clique %1$sSalvar %2$s."
+
+#@ wp-ui
+#: inc/wpui-helpers.php:545
+#, php-format
+msgid "%1$sImportant : WP UI Options%2$s tables structure has been changed and requires a manual save. Please take a moment to %3$sVisit Options page%4$s"
+msgstr "%1$sImportante : Opções WP UI%2$s estrutura de tabelas foram alteradas e precisam ser salvas manualmente. Reserve um tempo para %3$sVisitar a página de opções%4$s"
+
+#@ wp-ui
+#: inc/wpui-helpers.php:566
+msgid "No directory found."
+msgstr "Nenhum diretório encontrado."
+
+#@ wp-ui
+#: inc/wpui-helpers.php:608
+msgid "No themes found inside folder."
+msgstr "Nenhum tema foi encontrado dentro da pasta."
+
+#@ wp-ui
+#: wp-ui.php:959
+msgid "WP-UI feeds shortcodes needs a valid RSS URL to work."
+msgstr "Os shortcodes de feeds para o WP-UI necessitam uma URL de RSS válida para funcionar."
+

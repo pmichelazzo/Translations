@@ -1,0 +1,14 @@
+LEIAME
+
+Tradução para Português do Brasil do plugin WP UI
+http://wordpress.org/extend/plugins/wp-ui/
+
+Data: 12/07/2012
+Por: Paulino Michelazzo - paulino@michelazzo.com.br
+
+Instalação:
+- Faça o upload dos arquivos wp-ui-pt_BR.mo e wp-ui-pt_BR.po na pasta languages do plugin (wp-content/plugins/wp-ui/languages)
+- Limpe o cache de seu WordPress (se estiver ativado)
+- Recarregue a página
+
+Qualquer informação ou inconsistência na tradução, entre em contato pelo e-mail paulino@michelazzo.com.br
