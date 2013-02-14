@@ -1,0 +1,277 @@
+# Portuguese, Brazil translation of Brazilian Tax Number Fields (all releases)
+# Copyright (c) 2012 by the Portuguese, Brazil translation team
+# Generated from files:
+#  brazilianids.info,v 1.1.1.1.2.4 2010/01/06 18:26:57 wasare
+#  brazilianids.module,v 1.3 2008/01/24 23:19:46 brmassa
+#  brazilianids.module,v 1.3.2.3 2009/12/12 17:00:58 wasare
+#  brazilianids.module,v 1.3.2.4 2009/12/13 13:57:48 wasare
+#  brazilianids.module,v 1.3.2.6 2010/01/09 00:59:33 wasare
+#  brazilianids.module,v 1.3.2.7 2010/01/12 18:20:14 wasare
+#  brazilianids.module,v 1.3.2.8 2010/12/27 20:18:35 wasare
+#  brazilianids_cck.inc,v 1.2.2.4 2010/01/09 00:59:33 wasare
+#  brazilianids_cck.inc,v 1.2.2.5 2010/01/12 00:34:01 wasare
+#  brazilianids_cck.inc,v 1.2 2008/01/22 20:20:15 brmassa
+#  brazilianids_cck.inc,v 1.2.2.3 2009/12/12 17:00:58 wasare
+#  brazilian_ids/br_tax_number_fields.module: n/a
+#  brazilianids.info,v 1.1.1.1 2007/12/10 16:45:05 brmassa
+#  brazilianids.info,v 1.1.1.1.2.2 2009/12/12 17:00:58 wasare
+#  brazilianids.info,v 1.1.1.1.2.3 2009/12/13 13:57:48 wasare
+#  brazilian_ids/br_tax_number_fields.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Brazilian Tax Number Fields (all releases)\n"
+"POT-Creation-Date: 2012-06-03 23:59+0000\n"
+"PO-Revision-Date: 2012-06-03 21:14-0300\n"
+"Language-Team: Paulino Michelazzo <michelazzo@me.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Last-Translator: Paulino Michelazzo <michelazzo@me.com>\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: brazilianids.info:0
+msgid "CCK"
+msgstr "CCK"
+
+#: brazilianids.module:40,59
+msgid "Required"
+msgstr "Obrigatório"
+
+#: brazilianids.module:50
+msgid "Category"
+msgstr "Categoria"
+
+#: brazilianids_cck.inc:133
+msgid "Default"
+msgstr "Padrão"
+
+#: brazilianids_cck.inc:162,163,183
+msgid "Textfield"
+msgstr "Campo de texto"
+
+#: brazilianids_cck.inc:141
+msgid "Plain text"
+msgstr "Texto puro"
+
+#: brazilianids_cck.inc:219
+msgid "Size of textfield"
+msgstr "Tamanho do campo de texto"
+
+#: brazilianids_cck.inc:60,61,19;
+#: brazilianids.module:92,137,140,117,180,182,120,183,185,119,175,177,174,176,179,181;
+#: br_tax_number_fields.module:61
+msgid "CPF"
+msgstr "CPF"
+
+#: brazilianids_cck.inc:61,62,22;
+#: brazilianids.module:105,145,152,130,187,189,133,190,192,132,182,184,131,181,183,186,188;
+#: br_tax_number_fields.module:57
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: brazilianids_cck.inc:62;
+#: brazilianids.module:149
+msgid "CPF/CNPJ"
+msgstr "CPF/CNPJ"
+
+#: brazilianids_cck.inc:136,137,62
+msgid "\"%value\" is not a valid CPF"
+msgstr "\"%value\" não é um CPF válido"
+
+#: brazilianids_cck.inc:141,142,66
+msgid "\"%value\" is not a valid CNPJ"
+msgstr "\"%value\" não é um CNPJ válido"
+
+#: brazilianids_cck.inc:146,147,70
+msgid "\"%value\" is not a valid CPF neither CNPJ"
+msgstr "\"%value\" não é um CPF ou CNPJ válido"
+
+#: brazilianids.module:24,28
+msgid "Enable the CPF on user profiles"
+msgstr "Habilitar o CPF para perfis de usuários"
+
+#: brazilianids.module:25,29
+msgid "Enable the CPF"
+msgstr "Habilitar o CPF"
+
+#: brazilianids.module:30,34
+msgid "Enable the CNPJ on user profiles"
+msgstr "Habilitar o CNPJ para perfis de usuários"
+
+#: brazilianids.module:31,35
+msgid "Enable the CNPJ"
+msgstr "Habilitar o CNPJ"
+
+#: brazilianids.module:39,58
+msgid "Are these fields required?"
+msgstr "Todos estes campos são obrigatórios?"
+
+#: brazilianids.module:48
+msgid "Enable the these fields during user registraion?"
+msgstr "Habilitar estes campos durante o registro de usuários?"
+
+#: brazilianids.module:49,68
+msgid "User registration"
+msgstr "Registro de usuário"
+
+#: brazilianids.module:66,85,88,87;
+#: brazilianids.info:0
+msgid "Brazilian IDs"
+msgstr "Identificador Brasileiro"
+
+#: brazilianids.module:87,112,115,114
+msgid "Your CPF. Only the numbers."
+msgstr "Seu CPF. Somente números."
+
+#: brazilianids.module:100,125,128,127,126
+msgid "Your CNPJ. Only the numbers."
+msgstr "Seu CNPJ. Somente números."
+
+#: brazilianids.module:120,156,159,155,160
+msgid "Your CPF is not valid or it already exists."
+msgstr "Seu CPF não é válido ou já existe."
+
+#: brazilianids.module:127,163,166,161,160,165
+msgid "Your CNPJ is not valid or it already exists."
+msgstr "Seu CNPJ não é válido ou já existe."
+
+#: brazilianids.info:0
+msgid "Deals with brazilian IDs: CPF and CNPJ"
+msgstr "Acordo com identificadores brasileiros: CPF e CNPJ"
+
+#: brazilianids_cck.inc:63,25;
+#: brazilianids.module:142,195,197,145,198,200,144,189,191,143,188,190,193
+msgid "CPF / CNPJ"
+msgstr "CPF / CNPJ"
+
+#: brazilianids_cck.inc:78
+msgid "@widget_label"
+msgstr "@widget_label"
+
+#: brazilianids.module:42
+msgid "Enable the CPF / CNPJ on user profiles"
+msgstr "Hablitar o CPF / CNPJ nos perfis de usuários"
+
+#: brazilianids.module:43
+msgid "Enable the CPF / CNPJ"
+msgstr "Hablitar o CPF / CNPJ"
+
+#: brazilianids.module:48,102,107,177,105,110,180,104,109,172
+msgid "account"
+msgstr "conta"
+
+#: brazilianids.module:49
+msgid "Category to groupin brazilianids"
+msgstr "Categoria para agrupar identificadores brasileiros"
+
+#: brazilianids.module:67
+msgid "Enable the these fields during user registration?"
+msgstr "Habilitar estes campos durante o registro de usuários?"
+
+#: brazilianids.module:108,111,110
+msgid "@user_group_category"
+msgstr "@user_group_category"
+
+#: brazilianids.module:137,140,139,138
+msgid "Your CPF/CNPJ. Only the numbers."
+msgstr "Seu CPF/CNPJ. Somente os números."
+
+#: brazilianids.module:171,174,166,165,170
+msgid "Your CPF/CNPJ is not valid or it already exists."
+msgstr "Seu CPF/CNPJ não é válido ou já existe."
+
+#: brazilianids.module:42
+msgid "This option works only when fields CPF and CNPJ are enabled."
+msgstr "Esta opção somente trabalha qunado os campos CPF e CNPJ estão habilitados."
+
+#: brazilianids.module:43
+msgid "Use the same field for CPF or CNPJ"
+msgstr "Use o mesmo campo para CPF ou CNPJ"
+
+#: brazilianids.module:244,234,233,238
+msgid "\"Use the same field for CPF or CNPJ\" was disabled because you enabled only one that fields, CPF or CNPJ."
+msgstr "\"Use o mesmo campo para CPF ou CNPJ\" foi desabilitado porque você habilitou somente um destes campos, CPF ou CNPJ."
+
+#: brazilianids.module:28
+msgid "Enable the CPF on user profiles."
+msgstr "Habilitar o CPF nos perfis de usuários."
+
+#: brazilianids.module:29
+msgid "Enable the CPF."
+msgstr "Habilitar CPF."
+
+#: brazilianids.module:34
+msgid "Enable the CNPJ on user profiles."
+msgstr "Habilitar o CNPJ nos perfis de usuários."
+
+#: brazilianids.module:35
+msgid "Enable the CNPJ."
+msgstr "Habilitar CNPJ."
+
+#: brazilianids.module:43
+msgid "Use the same field for CPF or CNPJ."
+msgstr "Usar o mesmo campo para CPF ou CNPJ."
+
+#: brazilianids.module:49
+msgid "Category to groupin brazilianids."
+msgstr "Categoria para agrupar identificadores brasileiros."
+
+#: brazilianids.module:48
+msgid "Field weight"
+msgstr "Peso do campo"
+
+#: brazilianids.module:49
+msgid "The field weight in the form."
+msgstr "O peso do campo no formulário."
+
+#: brazilianids.module:107
+msgid "Brazilian ID Number"
+msgstr "Números de Identificadores Brasileiros"
+
+#: br_tax_number_fields.module:65
+msgid "CNPJ / CPF"
+msgstr "CNPJ / CPF"
+
+#: br_tax_number_fields.module:129
+msgid "CNPJ field does not allow a sequence of the same number."
+msgstr "O campo CNPJ não permite uma sequência igual de números."
+
+#: br_tax_number_fields.module:133
+msgid "CNPJ must have 14 digits."
+msgstr "O CNPJ deve conter 14 dígitos."
+
+#: br_tax_number_fields.module:162
+msgid "CNPJ number you have entered is invalid."
+msgstr "O CNPJ informado não é válido."
+
+#: br_tax_number_fields.module:179
+msgid "CPF field does not allow a sequence of the same number."
+msgstr "O campo CPF não permite uma sequência igual de números."
+
+#: br_tax_number_fields.module:183
+msgid "CPF must have 11 digits."
+msgstr "O CPF deve conter 11 dígitos."
+
+#: br_tax_number_fields.module:218
+msgid "CPF number you have entered is invalid."
+msgstr "O número do CPF é inválido."
+
+#: br_tax_number_fields.module:234
+msgid "CPF / CNPJ field must have either 11 or 14 digits."
+msgstr "O CPF ou CNPJ devem conter 11 ou 14 dígitos."
+
+#: br_tax_number_fields.module:259
+msgid "%name must have only numbers."
+msgstr "%name deve conter somente números."
+
+#: br_tax_number_fields.info:0
+msgid "Brazilian Tax Number Fields"
+msgstr "Brazilian Tax Number Fields"
+
+#: br_tax_number_fields.info:0
+msgid "Adds new widgets (CNPJ, CPF and CNPJ / CPF) options to the text field type at the Field UI and creates new form element types for the Form API"
+msgstr "Adicionar opções de novo widget (CNPJ, CPF e CNPJ / CPF) para o campo texto na Field UI e criar um novo tipo de elemento de formulário para o Form API"
+
