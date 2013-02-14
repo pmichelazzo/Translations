@@ -1,0 +1,597 @@
+# Portuguese, Brazil translation of Scheduler (all releases)
+# Copyright (c) 2011 by the Portuguese, Brazil translation team
+# Generated from files:
+#  scheduler.module,v 1.46.4.41 2009/05/12 08:06:18 ericschaefer
+#  scheduler.module,v 1.50.2.23 2009/07/12 17:00:14 ericschaefer
+#  scheduler.module,v 1.50.2.31 2009/10/16 17:10:11 ericschaefer
+#  scheduler.module,v 1.46.4.43 2009/10/09 19:36:25 ericschaefer
+#  scheduler.module,v 1.50.2.36 2010/05/02 16:36:06 ericschaefer
+#  scheduler.module,v 1.46.4.44 2010/05/25 18:55:59 ericschaefer
+#  scheduler.module,v 1.50.2.53 2010/12/09 21:31:42 ericschaefer
+#  scheduler.module,v 1.51.2.26 2011/02/13 19:44:43 ericschaefer
+#  scheduler.module,v 1.51.2.27 2011/02/17 16:57:42 ericschaefer
+#  scheduler/scheduler.module: n/a
+#  scheduler_handler_field_scheduler_countdown.inc,v 1.1.2.1 2010/12/22 13:40:45 ericschaefer
+#  scheduler_handler_field_scheduler_countdown.inc,v 1.1.4.2 2011/01/20 17:16:32 ericschaefer
+#  scheduler/scheduler_handler_field_scheduler_countdown.inc: n/a
+#  scheduler/scheduler.views.inc: n/a
+#  scheduler.views.inc,v 1.1.2.3 2009/08/26 17:40:44 ericschaefer
+#  scheduler.views.inc,v 1.1.2.5 2010/12/22 14:28:57 ericschaefer
+#  scheduler.views.inc,v 1.1.4.2 2011/01/20 17:16:32 ericschaefer
+#  scheduler/scheduler.info: n/a
+#  scheduler.install,v 1.5.2.5 2009/04/19 11:29:33 ericschaefer
+#  scheduler.install,v 1.5.2.6 2009/08/26 17:40:43 ericschaefer
+#  scheduler.install,v 1.5.2.7 2010/11/10 12:04:45 ericschaefer
+#  scheduler_vertical_tabs.js,v 1.1.2.2 2010/01/17 16:24:33 ericschaefer
+#  scheduler_vertical_tabs.js,v 1.1.4.4 2011/02/06 19:53:51 ericschaefer
+#  scheduler/scheduler_vertical_tabs.js: n/a
+#  scheduler.tokens.inc,v 1.1.2.1 2011/01/31 19:13:43 ericschaefer
+#  scheduler/scheduler.tokens.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Scheduler (all releases)\n"
+"POT-Creation-Date: 2011-06-25 13:00+0000\n"
+"PO-Revision-Date: 2011-06-25 14:48-0300\n"
+"Language-Team: Portuguese, Brazil <paulino@michelazzo.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Last-Translator: Paulino Michelazzo <paulino@michelazzo.com.br>\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: scheduler.module:162,175,173,179,343,393,392
+msgid "Title"
+msgstr "Título"
+
+#: scheduler.module:166,179,177,183,347,409,408
+msgid "Operations"
+msgstr "Operações"
+
+#: scheduler.module:448,467
+msgid "content"
+msgstr "conteúdo"
+
+#: scheduler.module:163,176,174,180,344,397,396
+msgid "Author"
+msgstr "Autor"
+
+#: scheduler.module:448,467,440,469,447,476,453,482,652,710,745,813,727,795,729,797
+msgid "view"
+msgstr "ver"
+
+#: scheduler.module:49,48
+msgid "Settings"
+msgstr "Configurações"
+
+#: scheduler.module:184,197,195,201,365,439,438
+msgid "edit"
+msgstr "editar"
+
+#: scheduler.module:275,274
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+#: scheduler.module:63,69,60,76,123,122
+msgid "Date format"
+msgstr "Formato da data"
+
+#: scheduler.module:85,132,131
+msgid "Field type"
+msgstr "Tipo do campo"
+
+#: scheduler_handler_field_scheduler_countdown.inc:76,75
+msgid "Weeks"
+msgstr "Semanas"
+
+#: scheduler.module:330
+msgid "The entered expiration date is invalid."
+msgstr "A data de expiração informada é inválida"
+
+#: scheduler_handler_field_scheduler_countdown.inc:75,74
+msgid "Days"
+msgstr "Dias"
+
+#: scheduler_handler_field_scheduler_countdown.inc:74,73
+msgid "Hours"
+msgstr "Horas"
+
+#: scheduler_handler_field_scheduler_countdown.inc:72,71
+msgid "Seconds"
+msgstr "Segundos"
+
+#: scheduler_handler_field_scheduler_countdown.inc:73,72
+msgid "Minutes"
+msgstr "Minutos"
+
+#: scheduler.module:283,333,332
+msgid "Format: %time."
+msgstr "Formato: %time"
+
+#: scheduler.module:52,51,42,73,72
+msgid "Scheduled"
+msgstr "Agendado"
+
+#: scheduler.module:11
+msgid "A module to schedule when nodes are (un)published."
+msgstr "Um módulo para agendar quando nodes são (des)publicados."
+
+#: scheduler.module:43,42,33,41,40
+msgid "Scheduler module settings"
+msgstr "Scheduler"
+
+#: scheduler.module:67,73
+msgid "The input format for the (un)scheduling time/date. See the date() function for formatting options: http://www.php.net/manual/en/function.date.php"
+msgstr "O formato de entrada para hora/data de (des)agendamento. Veja a função date() para opções de formatação: http://www.php.net/manual/pt_BR/function.date.php"
+
+#: scheduler.module:82,87,78
+msgid "Enable scheduled (un)publishing"
+msgstr "Habilitar a (des)publicação agendada"
+
+#: scheduler.module:84,89,80
+msgid "Check this box to enable scheduled (un)publishing for this node type."
+msgstr "Marque esta opção para habilitar a (des)publicação para este tipo de node"
+
+#: scheduler.module:88,93,84,165,211,210
+msgid "Alter published on time"
+msgstr "Alterar o horário de publicação"
+
+#: scheduler.module:90,95,86,167,213,212
+msgid "Check this box to alter the published on time to match the scheduled time (\"touch feature\")."
+msgstr "Marque esta opção para alterar o horário de publicação a fim de que ele corresponda ao horário agendadado (\"touch feature\")."
+
+#: scheduler.module:123,141,127,263,313,312
+msgid "Scheduling options"
+msgstr "Opções de agendamento"
+
+#: scheduler.module:132,164,171,149,177,184,135,175,182,141,181,188,292,345,352,926,342,401,415,341,400,414;
+#: scheduler.views.inc:15,23,20,28,19,27
+msgid "Publish on"
+msgstr "Publicar em"
+
+#: scheduler.module:135,152,138,144
+msgid "Format: %time. Leave blank to disable scheduled publishing."
+msgstr "Formato %time. Deixe em branco para desabilitar o agendamento de publicação."
+
+#: scheduler.module:143,165,158,178,176,149,182,307,346,927,357,405,356,404;
+#: scheduler.views.inc:31,39,36,44,37,45
+msgid "Unpublish on"
+msgstr "Despublicar em"
+
+#: scheduler.module:146,161,152
+msgid "Format: %time. Leave blank to disable scheduled unpublishing."
+msgstr "Formato %time. Deixe em branco para desabilitar o agendamento de despublicação."
+
+#: scheduler.module:196,209,207,213,377,454,453
+msgid "There are no scheduled nodes."
+msgstr "Não há nodes agendados."
+
+#: scheduler.module:323
+msgid "The entered publication date is invalid."
+msgstr "A data de publicação informada é inválida."
+
+#: scheduler.module:335
+msgid "The expiration date is before publication date."
+msgstr "A data de expiração é anterior a data de publicação"
+
+#: scheduler.module:448,440,447,453,652,745,727,729
+msgid "@type: scheduled publishing of %title."
+msgstr "@type: agendamento da publicação de %title"
+
+#: scheduler.module:467,469,476,482,710,813,795,797
+msgid "@type: scheduled unpublishing of %title."
+msgstr "@type: agendamento da despublicação de %title"
+
+#: scheduler.module:507,532,539,545,799,919,901,903
+msgid "Scheduler OS time check"
+msgstr "Verificação do horário do SO pelo Scheduler"
+
+#: scheduler.module:515,544,551,557,807,927,909,911
+msgid "Your server reports the UTC time as %time and \"localtime\" as %lt."
+msgstr "Seu servidor informou que o horário UTC é %time e o \"localtime\" é %lt."
+
+#: scheduler.module:517,546,553,559,809,929,911,913
+msgid "If all is well with your server's time configuration UTC should match <a target=\"_blank\" href=\"http://wwp.greenwichmeantime.com/\">UTC London Time</a> and the localtime should be the time where you are."
+msgstr "Se tudo está correto com a configuração, o horário UTC do servidor deve corresponder ao <a target=\"_blank\" href=\"http://wwp.greenwichmeantime.com/\">UTC London Time</a> e o localtime deve corresponder ao horário de onde você está."
+
+#: scheduler.module:519,548,555,561,811,931,913,915
+msgid "If this is not the case please have your Unix System Administrator fix your servers time/date configuration."
+msgstr "Se não for esse o caso, solicite ao admnistrador do sistema Unix para acertar a configuração de horário do seu servidor."
+
+#: scheduler.module:539,555,565,866,985,967,969
+msgid "Scheduler: publish on"
+msgstr "Scheduler: publicar em"
+
+#: scheduler.module:540;
+#: scheduler.views.inc:16,21,20
+msgid "Date/time on which the article will be automatically published"
+msgstr "Data/hora que o artigo será automaticamente publicado."
+
+#: scheduler.module:546,559,574,873,992,974,976
+msgid "Scheduler: unpublish on"
+msgstr "Scheduler: despublicar em"
+
+#: scheduler.module:547
+msgid "Date/time on which the article will be automatically un-published"
+msgstr "Data/hora que o artigo será automaticamente despublicado."
+
+#: scheduler.module:556
+msgid "Sort by the date the article will be automatically published."
+msgstr "Organizar pela data/hora que o artigo será automaticamente publicado."
+
+#: scheduler.module:560
+msgid "Sort by the date/time on which the article will be automatically un-published."
+msgstr "Organizar pela data/hora que o artigo será automaticamente despublicado."
+
+#: scheduler.module:566
+msgid "This filter allows nodes to be filtered by the date they will be automatically published."
+msgstr "Este filtro permite que nodes sejam filtrados pela data que eles serão automaticamente publicados."
+
+#: scheduler.module:575
+msgid "This filter allows nodes to be filtered by the date they will be automatically un-published."
+msgstr "Este filtro permite que nodes sejam filtrados pela data que eles serão automaticamente despublicados."
+
+#: scheduler.module:19,10
+msgid "schedule (un)publishing of nodes"
+msgstr "agendar a (des)publicação de nodes"
+
+#: scheduler.module:19,10
+msgid "administer scheduler"
+msgstr "administrar Scheduler"
+
+#: scheduler.info:0;
+#: scheduler.views.inc:5,10,9;
+#: scheduler.module:571,579,831,951,933,935
+msgid "Scheduler"
+msgstr "Scheduler"
+
+#: scheduler.info:0
+msgid "This module allows nodes to be published and unpublished on specified dates."
+msgstr "Este módulo permite que nodes sejam publicados e despublicados em datas especificadas."
+
+#: scheduler.views.inc:32,37,38
+msgid "Date/time on which the article will be automatically unpublished"
+msgstr "Data/hor que o artigo será automaticamente despublicado"
+
+#: scheduler.module:54,45,76,75
+msgid "Display a list of scheduled nodes"
+msgstr "Exibe uma lista de nodes agendados"
+
+#: scheduler.module:354,361,367,534,614,596,598
+msgid "The 'publish on' value does not match the expected format of %time"
+msgstr "O valor de 'publicar em' não corresponde ao formato esperado de %time"
+
+#: scheduler.module:357,364,370,537,617,599,601
+msgid "The 'publish on' date must be in the future"
+msgstr "O valor de 'publicar em' deve estar no futuro"
+
+#: scheduler.module:367,374,380,547,624,606,608
+msgid "The 'unpublish on' value does not match the expected format of %time"
+msgstr "O valor de 'despublicar em' não corresponde ao formato esperado de %time"
+
+#: scheduler.module:370,377,383,550,627,609,611
+msgid "The 'unpublish on' date must be in the future"
+msgstr "A data 'despublicar em' deve ser futura"
+
+#: scheduler.module:378,385,391,558,631,613,615
+msgid "The 'unpublish on' date must be later than the 'publish on' date."
+msgstr "A data 'despublicar em' deve ser posterior a data 'publicar em'"
+
+#: scheduler.module:440,469,499,447,476,506,453,482,512,652,710,759,771,745,813,864,872,727,795,846,854,729,797,848,856
+msgid "scheduler"
+msgstr "Scheduler"
+
+#: scheduler.module:499,506,512
+msgid "Internal scheduler run activated"
+msgstr "Ativada a execução interna do Scheduler"
+
+#: scheduler.module:28,19,27,26
+msgid "Light weight cron handler"
+msgstr "Agendador de Tarefas Leve"
+
+#: scheduler.module:29,20,28,27
+msgid "A light weight cron handler to allow more frequent runs of Schedulers internal cron system"
+msgstr "Um Agendador de Tarefas leve permite execuções mais frequentes do agendador do Scheduler que o Agendador de Tarefas do sistema"
+
+#: scheduler.module:35,26,34,33
+msgid "Test your servers UTC clock"
+msgstr "Teste o relógio UTC de seu servidor"
+
+#: scheduler.module:36,27,35,65,34,64
+msgid "Allows site admin to check their servers internal clock"
+msgstr "Permite que administradores do site verifiquem os relógios internos dos servidors"
+
+#: scheduler.module:43,34,42,41
+msgid "Allows site admins to configure scheduler."
+msgstr "Permite que administradores do site configurem o Scheduler"
+
+#: scheduler.install:16,15
+msgid "The main table to hold the scheduler data."
+msgstr "A tabela principal para os dados do Scheduler"
+
+#: scheduler.install:19,18
+msgid "The foreign key to node.nid"
+msgstr "A chave estrangeira para node.nid"
+
+#: scheduler.install:25,24
+msgid "The UNIX UTC timestamp when to publish"
+msgstr "O horário UTC no formato UNIX timestamp quando publicar"
+
+#: scheduler.install:32,31
+msgid "The UNIX UTC timestamp when to unpublish"
+msgstr "O horário UTC no formato UNIX timestamp quando despublicar"
+
+#: scheduler.module:64
+msgid "The input format for the (un)scheduling time/date. See the date() function for formatting options: http://www.php.net/manual/en/function.date.php (only the following format characters are supported (don't use 'G' with Date Popup): djmnyYhHgGisaA)"
+msgstr "O formato de entrada para a data e hora de despublicação. Veja a função date() para opções de formatação: http://www.php.net/manual/pt_BR/function.date.php (apenas os seguintes caracteres de formatação são suportados (não use 'G' com o Date Popup): djmnyYhHgGisaA)"
+
+#: scheduler.module:154,160,287,321,337,371,336,370
+msgid "Leave blank to disable scheduled publishing."
+msgstr "Deixe em branco para desabilitar a publicação"
+
+#: scheduler.module:159,165,303,328,353,378,352,377
+msgid "Leave blank to disable scheduled unpublishing."
+msgstr "Deixe em branco para desabilitar a despublicação"
+
+#: scheduler.module:572,580,832,952,934,936
+msgid "Scheduler module form."
+msgstr "Formulário do módulo Scheduler."
+
+#: scheduler.module:64,80,127,126
+msgid "The input format for the (un)scheduling time/date. See the date() function for formatting options: http://www.php.net/manual/en/function.date.php (only the following format characters are supported (don't use 'G', 'a' or 'A' with Date Popup): djmnyYhHgGisaA)"
+msgstr "O formato de entrada para a data e hora de despublicação. Veja a função date() para opções de formatação: http://www.php.net/manual/pt_BR/function.date.php (apenas os seguintes caracteres de formatação são suportados (não use 'G', 'a' ou 'A' com o Date Popup): djmnyYhHgGisaA)"
+
+#: scheduler_vertical_tabs.js:0
+msgid "Scheduled for publishing"
+msgstr "Agendado para publicação"
+
+#: scheduler_vertical_tabs.js:0
+msgid "Scheduled for unpublishing"
+msgstr "Agendado para despublicação"
+
+#: scheduler_vertical_tabs.js:0
+msgid "Not scheduled"
+msgstr "Não agendado"
+
+#: scheduler.views.inc:54,53
+msgid "Publish countdown"
+msgstr "Contagem regressiva para publicar"
+
+#: scheduler.views.inc:55,54
+msgid "Time until the article will be automatically published"
+msgstr "Tempo até o artigo ser automaticamente publicado"
+
+#: scheduler.views.inc:64,63
+msgid "Unpublish countdown"
+msgstr "Contagem regressiva pra despublicar"
+
+#: scheduler.views.inc:65,64
+msgid "Time until the article will be automatically unpublished"
+msgstr "Tempo até o artigo ser automaticamente despublicado"
+
+#: scheduler_handler_field_scheduler_countdown.inc:68,67
+msgid "Display countdown as"
+msgstr "Apresentar contagem regressiva como"
+
+#: scheduler_handler_field_scheduler_countdown.inc:71,70
+msgid "Smart mode"
+msgstr "Modo inteligente"
+
+#: scheduler_handler_field_scheduler_countdown.inc:81,80
+msgid "Display time units"
+msgstr "Mostrar unidades de hora"
+
+#: scheduler_handler_field_scheduler_countdown.inc:84,83
+msgid "Long (e.g. 3 days)"
+msgstr "Longo (ex. 3 dias)"
+
+#: scheduler_handler_field_scheduler_countdown.inc:85,84
+msgid "Short (e.g. 3d)"
+msgstr "Curto (ex. 3d)"
+
+#: scheduler_handler_field_scheduler_countdown.inc:86,85
+msgid "No units at all"
+msgstr "Sem unidades até o momento"
+
+#: scheduler.module:67
+msgid "Run scheduler cron function manually"
+msgstr "Executar o Agendador de Tarefas do Scheduler manualmente"
+
+#: scheduler.module:88,135,134
+msgid "Standard text field"
+msgstr "Campo de texto padrão"
+
+#: scheduler.module:89,136,135
+msgid "Date Popup field"
+msgstr "Campo Date Popup"
+
+#: scheduler.module:91,138,137
+msgid "If the Date module's Date Popup module is enabled you may use the popup calendar for your field type."
+msgstr "Se o módulo Date e o Date Popup estão habilitados você deve pode o calendário para seu campo"
+
+#: scheduler.module:100,147,146
+msgid "If you are using Date Popup, the following time formats are supported: !formats"
+msgstr "Se você está usando Date Popup, os seguintes formatos de data são suportados: !formats"
+
+#: scheduler.module:105,152,151
+msgid "Extra Info"
+msgstr "Informações Adicionais"
+
+#: scheduler.module:107,154,153
+msgid "The text entered into this field will be displayed above the scheduling fields in the node edit form."
+msgstr "O texto digitado neste campo será apresentado acima dos campos de agendamento no formulário de edição do node"
+
+#: scheduler.module:120,166,165
+msgid "The Date Popup module only accepts the following formats: !formats"
+msgstr "O módulo Date Popup só aceita os seguintes formatos: !formats"
+
+#: scheduler.module:159,205,204
+msgid "Enable scheduled publishing"
+msgstr "Habilitar o agendamento de publicação"
+
+#: scheduler.module:161,207,206
+msgid "Check this box to enable scheduled publishing for this node type."
+msgstr "Marque esta opção para habilitar a publicação agendada para este tipo de node"
+
+#: scheduler.module:171,217,216
+msgid "Publishing date/time is required."
+msgstr "Data/Hora de publicação é obrigatório"
+
+#: scheduler.module:173,219,218
+msgid "Check this box to if scheduled publishing is required (e.g. the user must enter a date/time)."
+msgstr "Marque esta opção se o agendamento da publicação é obrigatório (ex. o usuário deve informar data/hora)"
+
+#: scheduler.module:177,223,222
+msgid "Create a new revision on publishing"
+msgstr "Criar nova revisão na publicação"
+
+#: scheduler.module:179,225,224
+msgid "Check this box if you want a new revision created when publishing."
+msgstr "Marque esta opção se deseja que uma nova revisão seja criada quando publicar"
+
+#: scheduler.module:192,237,236
+msgid "Enable scheduled unpublishing"
+msgstr "Habilitar o agendamento de despublicação"
+
+#: scheduler.module:194,239,238
+msgid "Check this box to enable scheduled unpublishing for this node type."
+msgstr "Marque esta opção para habilitar o agendamento de despublicação deste tipo de conteúdo"
+
+#: scheduler.module:198,243,242
+msgid "Unpublishing date/time is required."
+msgstr "Data/hora de despublicação é obrigatório"
+
+#: scheduler.module:200,245,244
+msgid "Check this box to if scheduled unpublishing is required (e.g. the user must enter a date/time)."
+msgstr "Marque esta opção se o agendamento da despublicação é obrigatório (ex. o usuário deve informar data/hora)"
+
+#: scheduler.module:204,249,248
+msgid "Create a new revision on unpublishing"
+msgstr "Criar nova revisão na despublicação"
+
+#: scheduler.module:206,251,250
+msgid "Check this box if you want a new revision created when unpublishing."
+msgstr "Marque esta opção se deseja que uma nova revisão seja criada quando despublicar"
+
+#: scheduler.module:565,650,632,634
+msgid "This post is unpublished and will be published @publish_time."
+msgstr "Este post está despublicado e pode ser publicado em @publish_time."
+
+#: scheduler.module:773
+msgid "Attempted to run schedulers internal cron function."
+msgstr "Tentativa de executar a função do agendador de tarfas interno do Scheduler"
+
+#: scheduler.module:867,986,968,970
+msgid "The date, when scheduler module should publish node."
+msgstr "A data que o módulo Scheduler deve publicar o node"
+
+#: scheduler.module:874,993,975,977
+msgid "The date, when scheduler module should unpublish node."
+msgstr "A data que o módulo Scheduler deve despublicar o node"
+
+#: scheduler.module:759,864,846,848
+msgid "Internal scheduler cron run activated"
+msgstr "Agendador de Tarefas interno do Scheduler ativado"
+
+#: scheduler.module:771
+msgid "Internal scheduler cron run manually activated"
+msgstr "Agendador de Tarefas interno do Scheduler ativado manualmente"
+
+#: scheduler.module:49
+msgid "Manual scheduler cron run"
+msgstr "Agendador de Tarefas manual do Scheduler ativado"
+
+#: scheduler.module:50
+msgid "Allows site admins to run schedulers cron function manually."
+msgstr "Permite que administradores do site executem o agendador de tarefas do Scheduler manualmente"
+
+#: scheduler.tokens.inc:14,13
+msgid "Publish on date"
+msgstr "Publicar na data"
+
+#: scheduler.tokens.inc:15,14
+msgid "The date the node will be published."
+msgstr "A data que o node será publicado"
+
+#: scheduler.tokens.inc:19,18
+msgid "Unpublish on date"
+msgstr "Despublicar na data"
+
+#: scheduler.tokens.inc:20,19
+msgid "The date the node will be unpublished."
+msgstr "A data que o node será despublicado"
+
+#: scheduler.module:12,11
+msgid "Administer scheduler"
+msgstr "Administrar o Scheduler"
+
+#: scheduler.module:15,14
+msgid "Schedule content publication"
+msgstr "Agendar a publicação do conteúdo"
+
+#: scheduler.module:16,15
+msgid "Allows users to set a start and end time for content publication"
+msgstr "Permite que usuários configurem uma hora de início e fim para a publicação do conteúdo"
+
+#: scheduler.module:97,96
+msgid "Some scheduler actions are set for each different content type. These are accessed via the <a href=\"@link\">admin content type</a> list."
+msgstr "Algumas ações do Scheduler são configuradas para diferentes tipos de conteúdo. Elas podem ser encontradas na lista de <a href=\"@link\">tipos de conteúdo</a>"
+
+#: scheduler.module:98,97
+msgid "The options and settings below are common to all content types."
+msgstr "As configurações e opções abaixo são comuns para todos os tipos de conteúdo"
+
+#: scheduler.module:105,104
+msgid "Scheduler's cron is at /scheduler/cron and a sample crontab entry to run scheduler every minute might look like:"
+msgstr "O Agendador de Tarefas do Scheduler está em /scheduler/cron e um exemplo de entrada do crontab para ser executado a cada minuto deve parecer com:"
+
+#: scheduler.module:112,111
+msgid "The Scheduler module provides the functionality for automatic publishing and unpublishing of nodes at specified future dates."
+msgstr "O módulo de Scheduler provê a funcionalidade de automaticamente publicar e despublicar nodes em datas futuras específicas."
+
+#: scheduler.module:113,112
+msgid "You can read more in the <a href=\"@readme\">readme.txt</a> file."
+msgstr "Você pode ler mais no arquivo <a href=\"@readme\">readme.txt</a>"
+
+#: scheduler.module:875,857,859
+msgid "Scheduler's lightweight cron completed. See !log for details."
+msgstr "Agendador de Tarefas Leve do Scheduler executado. Veja !log para detalhes."
+
+#: scheduler.module:889,871,873
+msgid "You can test Scheduler's lightweight cron process interactively"
+msgstr "Você pode testar o processo de agendamento de tarefas leve interativamente"
+
+#: scheduler.module:890,872,874
+msgid "Run Scheduler's cron now"
+msgstr "Executar o Agendador de Tarefas do Scheduler agora"
+
+#: scheduler.module:872,854,856
+msgid "Internal scheduler cron run completed"
+msgstr "Agendador de Tarefas interno do Scheduler executado com sucesso"
+
+#: scheduler.module:54,53
+msgid "Lightweight Cron"
+msgstr "Agendador de Tarefas Leve"
+
+#: scheduler.module:55,54
+msgid "A lightweight cron handler to allow more frequent runs of Schedulers internal cron system."
+msgstr "Um Agendador de Tarefas Leve permite a execução de tarefas do Scheduler mais frequentes que do sistema."
+
+#: scheduler.module:64,63
+msgid "Time Check"
+msgstr "Verificação de Hora"
+
+#: scheduler.info:0
+msgid "This module allows nodes to be published and unpublished on specified dates and time."
+msgstr "Este módulo permite que nodes sejam publicados e despublicados em datas e horários específicos."
+
+#: scheduler_vertical_tabs.js:0
+msgid "Publishing enabled"
+msgstr "Publicação habilitada"
+
+#: scheduler_vertical_tabs.js:0
+msgid "Unpublishing enabled"
+msgstr "Despublicação habilitada"
+

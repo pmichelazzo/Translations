@@ -1,0 +1,70 @@
+*** scheduler.module	2011-05-15 06:55:49.000000000 -0300
+--- scheduler-rev.module	2011-06-25 12:07:25.000000000 -0300
+***************
+*** 109,115 ****
+          . "execute any cron tasks defined by Drupal core or any other modules.") . '</p>'
+          . '<p>' . t("Scheduler's cron is at /scheduler/cron and a sample crontab entry to run scheduler every minute might look like:") . '</p>'
+          . '<code>* * * * * /usr/bin/wget -O - -q "http://example.com/scheduler/cron"</code>'
+!         . '<p>or</p>'
+          . '<code>* * * * * curl "http://example.com/scheduler/cron" > /dev/null 2>&1</code>';
+        break;
+      case 'admin/modules#description':
+--- 109,115 ----
+          . "execute any cron tasks defined by Drupal core or any other modules.") . '</p>'
+          . '<p>' . t("Scheduler's cron is at /scheduler/cron and a sample crontab entry to run scheduler every minute might look like:") . '</p>'
+          . '<code>* * * * * /usr/bin/wget -O - -q "http://example.com/scheduler/cron"</code>'
+!         . '<p>'.t("or").'</p>'
+          . '<code>* * * * * curl "http://example.com/scheduler/cron" > /dev/null 2>&1</code>';
+        break;
+      case 'admin/modules#description':
+***************
+*** 192,198 ****
+  
+      $form['scheduler'] = array(
+        '#type' => 'fieldset',
+!       '#title' => 'Scheduler settings',
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+        '#weight' => 35,
+--- 192,198 ----
+  
+      $form['scheduler'] = array(
+        '#type' => 'fieldset',
+!       '#title' => t('Scheduler settings'),
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+        '#weight' => 35,
+***************
+*** 201,207 ****
+  
+      $form['scheduler']['publish'] = array(
+        '#type' => 'fieldset',
+!       '#title' => 'Publishing settings',
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+        '#weight' => 1,
+--- 201,207 ----
+  
+      $form['scheduler']['publish'] = array(
+        '#type' => 'fieldset',
+!       '#title' => t('Publishing settings'),
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+        '#weight' => 1,
+***************
+*** 234,240 ****
+  
+      $form['scheduler']['unpublish'] = array(
+        '#type' => 'fieldset',
+!       '#title' => 'Unpublishing settings',
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+        '#weight' => 2,
+--- 234,240 ----
+  
+      $form['scheduler']['unpublish'] = array(
+        '#type' => 'fieldset',
+!       '#title' => t('Unpublishing settings'),
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+        '#weight' => 2,
